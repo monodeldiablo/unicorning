@@ -51,4 +51,11 @@ a {
 #type {
   font-size: 150%;
   font-style: italic;
+  display: inline;
+  padding-right: 1em;
+}
+
+#definition {
+  font-size: 150%;
+  display: inline;
 }
