@@ -27,7 +27,7 @@ a {
   line-height: 100%;
 }
 
-.container {
+#container {
   padding: 2em;
   width: 32em;
   margin: 0 auto;
@@ -39,9 +39,13 @@ a {
 /*  display: none;*/
 }
 
-.copyright {
+#ads {
+  margin-top: 4em;
+}
+
+#copyright {
   font-size: 75%;
-  margin-top: 8em;
+  margin-top: 2em;
 }
 
 #word {
