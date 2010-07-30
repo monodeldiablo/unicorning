@@ -9,7 +9,7 @@ body {
 }
 
 dt {
-  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 ul {
@@ -21,7 +21,9 @@ li {
 }
 
 a {
-  color: #8ADEE2;
+  font-size: 150%;
+  color: #cc0000;
+  text-decoration: none;
 }
 
 .container {
