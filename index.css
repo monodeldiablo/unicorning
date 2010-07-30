@@ -8,6 +8,10 @@ body {
   text-align: center;
 }
 
+dt {
+  padding-bottom: 1em;
+}
+
 ul {
   padding-left: 0;
 }
@@ -38,21 +42,22 @@ a {
 }
 
 #word {
-  font-size: 300%;
+  font-size: 250%;
   font-weight: bold;
-  padding-right: 1em;
+  display: inline;
+  padding-right: 0.5em;
 }
 
 #pronunciation {
   font-size: 150%;
-  padding-right: 1em;
+  display: inline;
 }
 
 #type {
   font-size: 150%;
   font-style: italic;
   display: inline;
-  padding-right: 1em;
+  padding-right: 0.5em;
 }
 
 #definition {
