@@ -1,0 +1,54 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-size: 12pt;
+  font-family: 'OFL Sorts Mill Goudy TT', 'Times New Roman', 'times', serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  margin-left: 0;
+}
+
+a {
+  color: #8ADEE2;
+}
+
+.container {
+  padding: 2em;
+  width: 32em;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tweet_time {
+  padding-left: 1em;
+/*  display: none;*/
+}
+
+.copyright {
+  font-size: 75%;
+  margin-top: 8em;
+}
+
+#word {
+  font-size: 300%;
+  font-weight: bold;
+  padding-right: 1em;
+}
+
+#pronunciation {
+  font-size: 150%;
+  padding-right: 1em;
+}
+
+#type {
+  font-size: 150%;
+  font-style: italic;
+}
