@@ -45,6 +45,13 @@
         });
         return $(returning);
       },
+      capUnicorn: function() {
+        var returning = [];
+        this.each(function() {
+          returning.push(this.replace(/\b(unicorn[\w]*)\b/gi, '<span class="unicorn">$1</span>'));
+        });
+        return $(returning);
+      },
       capAwesome: function() {
         var returning = [];
         this.each(function() {
@@ -146,7 +153,7 @@
           var avatar = (s.avatar_size ? avatar_template : '');
           var old_date = '<span class="tweet_time"><a href="http://twitter.com/'+from_user+'/statuses/'+item.id+'" title="view tweet on twitter">'+relative_time(item.created_at)+'</a></span>';
           var date = '<span class="tweet_time"><a href="http://twitter.com/'+from_user+'/statuses/'+item.id+'" title="view tweet on twitter">&#187;</a></span>';
-          var text = '<span class="tweet_text">' +$([item.text]).linkUrl().linkUser().linkHash().makeHeart().capAwesome().capEpic()[0]+ '</span>';
+          var text = '<span class="tweet_text">' +$([item.text]).linkUrl().linkUser().linkHash().makeHeart().capUnicorn().capAwesome().capEpic()[0]+ '</span>';
 
           // until we create a template option, arrange the items below to alter a tweet's display.
           list.append('<li>' + avatar + join + text + date + '</li>');

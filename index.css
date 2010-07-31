@@ -34,6 +34,10 @@ a {
   text-align: left;
 }
 
+.unicorn {
+  font-weight: bold;
+}
+
 .tweet_time {
   padding-left: 1em;
 /*  display: none;*/
