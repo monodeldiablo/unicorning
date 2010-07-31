@@ -12,7 +12,8 @@ dt {
   margin-bottom: 2em;
 }
 
-ul {
+ol {
+  font-weight: bold;
   padding-left: 0;
 }
 
@@ -41,6 +42,10 @@ a {
 .tweet_time {
   padding-left: 1em;
 /*  display: none;*/
+}
+
+.tweet_text {
+  font-weight: normal;
 }
 
 #ads {
